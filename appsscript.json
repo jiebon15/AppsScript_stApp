@@ -1,0 +1,16 @@
+{
+    "oauthScopes": [
+      "https://www.googleapis.com/auth/userinfo.email",
+      "https://www.googleapis.com/auth/drive.readonly",
+      "https://www.googleapis.com/auth/drive",
+      "https://www.googleapis.com/auth/spreadsheets.currentonly",
+      "https://www.googleapis.com/auth/spreadsheets",
+      "https://www.googleapis.com/auth/documents"
+    ],
+    "timeZone": "Asia/Jakarta",
+    "dependencies": {
+      "enabledAdvancedServices": []
+    },
+    "exceptionLogging": "STACKDRIVER",
+    "runtimeVersion": "V8"
+  }
