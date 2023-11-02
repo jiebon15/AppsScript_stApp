@@ -5,22 +5,22 @@ var wsData = SpreadsheetApp.getActiveSpreadsheet().getSheetByName("data");
 var wsData2 = SpreadsheetApp.getActiveSpreadsheet().getSheetByName("UPI");
 var datasheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName("database");
 
-const docTempInspeksiCKIB = DriveApp.getFileById("1fhUM8_Ig7k62tea3oD75z-L5rH8OFGLHDC85t4or-2w");
-const docTempInspeksiCKIBTahunan = DriveApp.getFileById("1wjTmxu72QUuYV537ZSI2DWwLt_BflZvn9-kMtczWIR8");
-const docTempMonsurCKIB = DriveApp.getFileById("15eKdGHgoTqdpzygKOX0Zc69649L_P5WJUz0fmoKkh8E");
-const docTempInspeksiHACCP = DriveApp.getFileById("1FyBPyu1cKut-Yk7bGllBNEwcfaeC2VNa24PxTTPGMQM");
-const docTempMonsurImpor = DriveApp.getFileById("1BetGd1jULUOag3hmPB8XFoTG1N8cKFKencMbOyy3IPU");
-const docTempOfficialControl = DriveApp.getFileById("1o3XOfGIddTobVN_g3qXK1k60gCChytLtWasquoxYqrQ");
-const docTempPenilaianIKI = DriveApp.getFileById("1mmEgvH8qg9PQgClfZ8WpjPbAEMFZg6BD58NRzzjWsXs");
-const docTempPerpanjanganIKI = DriveApp.getFileById("1l35Cx4TUYqyXHwN3dD37UHyg6YDfUJAnWGUrkmGNgI4");
-const docTempVerifikasiHACCP = DriveApp.getFileById("1cCXrBPfGIDlDramsApu9lK6ogXjqNVuVRcapZsxEVO0");
-const docTempMonevHACCP = DriveApp.getFileById("1pehUEZkZyNhN43bWqMTN7gZj6sog_06FUksS-S40bTM");
-const docTempTraceability = DriveApp.getFileById("1pEZoAqPlSpc9lAyD7kKLOxWm_ohZoRvvVDxnit_ejg8");
-const docTempSurveillanceHACCP = DriveApp.getFileById("1H1D8lf1VTXXMUvkmkVKd5qIA7k3LIc5ERqS5wtE-RmU");
-const docTempCPIB = DriveApp.getFileById("1HH1RsghFDveDtJJdRdgVlKP6503cKCPYpvygune0_wU");
-const docTempRegUPI = DriveApp.getFileById("1UO83SYfnA8WruGr9tamkby02e1GAhT-_HXsv1BXRZHM");
+const docTempInspeksiCKIB = DriveApp.getFileById("//replace\\"); //ganti dengan id template doc
+const docTempInspeksiCKIBTahunan = DriveApp.getFileById("//replace\\");
+const docTempMonsurCKIB = DriveApp.getFileById("//replace\\");
+const docTempInspeksiHACCP = DriveApp.getFileById("//replace\\");
+const docTempMonsurImpor = DriveApp.getFileById("//replace\\");
+const docTempOfficialControl = DriveApp.getFileById("//replace\\");
+const docTempPenilaianIKI = DriveApp.getFileById("//replace\\");
+const docTempPerpanjanganIKI = DriveApp.getFileById("//replace\\");
+const docTempVerifikasiHACCP = DriveApp.getFileById("//replace\\");
+const docTempMonevHACCP = DriveApp.getFileById("//replace\\");
+const docTempTraceability = DriveApp.getFileById("//replace\\");
+const docTempSurveillanceHACCP = DriveApp.getFileById("//replace\\");
+const docTempCPIB = DriveApp.getFileById("//replace\\");
+const docTempRegUPI = DriveApp.getFileById("//replace\\");
 
-const docFile = DriveApp.getFolderById("1u84RdkWo0rOwHgpiolWXFW_avO18TZvX");
+const docFile = DriveApp.getFolderById("//replace\\"); //ganti dengan id target folder
 
 var st = ws.getRange("C5").getValue();
 var nost = ws.getRange("C7").getValue();
